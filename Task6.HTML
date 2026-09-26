@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <form>
+
+        <label>Name:</label>
+        <input type="text" name="name">
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email">
+
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password">
+
+        <br><br>
+
+        <label>Gender:</label>
+
+        <input type="radio" name="gender" value="male">
+        Male
+
+        <input type="radio" name="gender" value="female">
+        Female
+
+        <input type="radio" name="gender" value="other">
+        Other
+
+        <br><br>
+
+        <label>Interests:</label>
+
+        <br>
+
+        <input type="checkbox" name="interest" value="programming">
+        Programming
+
+        <br>
+
+        <input type="checkbox" name="interest" value="web">
+        Web Development
+
+        <br>
+
+        <input type="checkbox" name="interest" value="gaming">
+        Gaming
+
+        <br><br>
+
+        <label>Department:</label>
+
+        <select name="department">
+            <option value="it">Information Technology</option>
+            <option value="software">Software Engineering</option>
+            <option value="computer">Computer Science</option>
+            <option value="networking">Networking</option>
+        </select>
+
+        <br><br>
+
+        <label>About You:</label>
+
+        <br>
+
+        <textarea name="about" rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
